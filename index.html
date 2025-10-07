@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendy Shop</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="sparkle-container"></div>
+  <header>
+    <div class="logo">🛍️ Trendy Shop</div>
+      <nav>
+        <a href="checkout.html" class="cart">🛒 Cart (<span id="cart-count">0</span>)</a>
+      </nav>      
+  </header>
+
+  <section class="filters">
+    <label for="category">Filter by Category:</label>
+    <select id="category">
+      <option value="all">All</option>
+      <option value="clothing">Clothing</option>
+      <option value="footwear">Footwear</option>
+      <option value="accessories">Accessories</option>
+    </select>
+  </section>  
+
+  <section class="hero">
+    <h1>Style meets Simplicity</h1>
+    <p>Discover high-end fashion and lifestyle products at unbeatable prices.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <section id="products" class="products">
+    <div class="product" data-category="clothing">
+      <img src="imagess/jeans-428613_1280.jpg" alt="Product 1">
+      <h3>Classic Hoodie</h3>
+      <p>$49.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" data-category="footwear">
+      <img src="imagess/fashion-1284496_1280.jpg" alt="Product 2">
+      <h3>Modern Sneakers</h3>
+      <p>$89.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" data-category="accessories">
+      <img src="imagess/wrist-watch-7953062_1280.jpg" alt="Product 3">
+      <h3>Minimal Watch</h3>
+      <p>$129.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </section>  
+
+  <footer>
+    <p>© 2025 Trendy Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
